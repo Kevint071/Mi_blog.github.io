@@ -1,16 +1,29 @@
+body{
+    position: static;
+}
+
+h1{
+    font-size: 40px;
+    position: relative;
+    margin-top: 110px;
+    left: 4%;
+    font-family: "Bahnschrift";
+    display: inline-block;
+}
+
 h2{
     font-size: 33px;
     position: relative;
-    top: 110px;
-    left: 4%;
+    top: 30px;
+    margin-left: 4%;
     font-family: "Bahnschrift";
 }
 
 ol{
     font-size: 20px;
     position: relative;
-    top: 130px;
-    left: 4%;
+    top: 40px;
+    margin-left: 4%;
     font-family: "Bahnschrift";
 }
 
@@ -23,7 +36,3 @@ ol li > a{
     font-weight: 200;
 }
 
-body{
-    position: absolute;
-    width: 100%;
-}

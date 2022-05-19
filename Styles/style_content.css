@@ -21,7 +21,6 @@ h2{
 }
 
 .h2_python{
-   position: absolute;
    top: 180px;
 }
 
@@ -49,6 +48,6 @@ p{
     font-size: 20px;
 }
 
-.p_despues_del_primero{
+.p_next{
     margin-top: 20px;
 }
