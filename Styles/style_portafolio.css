@@ -1,20 +1,9 @@
-h1{
-    font-size: 40px;
-    position: absolute;
-    top: 80px;
-    left: 4%;
-    font-family: "Bahnschrift";
-    display: inline-block;
-}
-
 h2{
     font-size: 33px;
     position: relative;
     top: 110px;
     left: 4%;
     font-family: "Bahnschrift";
-    margin-top: 30px;
-
 }
 
 ol{
@@ -32,4 +21,9 @@ ol li{
 ol li > a{
     color: black;
     font-weight: 200;
+}
+
+body{
+    position: absolute;
+    width: 100%;
 }
