@@ -1,6 +1,6 @@
 body{
-    background-color: #d7faef;
     margin: 0px;
+    background: linear-gradient(#befbff, #c5ffd4);
 }
 
 .div_cabecera{
@@ -22,8 +22,7 @@ body{
     z-index: 4;
 }
 
-a{
-    text-decoration: underline;
+.div_cabecera > a{
     text-decoration: none;
 }
 

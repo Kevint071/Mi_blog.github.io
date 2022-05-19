@@ -34,5 +34,5 @@ ol li{
 ol li > a{
     color: black;
     font-weight: 200;
+    text-decoration: none;
 }
-
