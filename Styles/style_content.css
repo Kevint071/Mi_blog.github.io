@@ -16,6 +16,13 @@ h2{
     left: 4%;
 }
 
+h3{
+    font-size: 25px;
+    position: relative;
+    font-family: "Bahnschrift";
+    margin-top: 45px;
+    left: 7%;
+}
 .h2_python{
    top: 180px;
 }
@@ -48,4 +55,21 @@ p{
 
 .p_next{
     margin-top: 20px;
+}
+
+ul{
+    font-size: 20px;
+    position: relative;
+    margin-left: 6%;
+    font-family: "Bahnschrift";
+}
+
+ul li{
+    color:aqua;
+}
+
+ul li > a{
+    color: black;
+    font-weight: 200;
+    text-decoration: none;
 }
