@@ -2,6 +2,7 @@ footer{
     background-color: black;
     height: 150px;
     width: 100%;
+    margin: auto;
     margin-top: 100px;
     clear: both;
 }
@@ -36,6 +37,7 @@ button{
 }
 
 button:hover{
+    transform: scale(1.06);
     background-color: white;
     color: black;
 }

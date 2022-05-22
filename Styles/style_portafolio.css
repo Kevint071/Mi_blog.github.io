@@ -6,7 +6,7 @@ h1{
     font-size: 40px;
     position: relative;
     margin-top: 110px;
-    left: 4%;
+    margin-left: 4%;
     font-family: "Bahnschrift";
     display: inline-block;
 }
@@ -35,4 +35,8 @@ ol li > a{
     color: black;
     font-weight: 200;
     text-decoration: none;
+}
+
+.p_footer{
+    font-family: "Bahnschrift";
 }
