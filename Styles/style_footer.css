@@ -8,9 +8,6 @@ footer{
 }
 
 input{
-    position: relative;
-    left: 22%;
-    top: 30px;
     color: black;
     font-size: 18px;
     font-family: "Bahnschrift";
@@ -23,17 +20,15 @@ input{
 }
 
 button{
-    position: relative;
     background-color: transparent;
     border: 2px solid #fff;
     width: 200px;
     padding: 8px;
     color: white;
     font-size: 18px;
+    margin-left: 15px;
     font-family: "Bahnschrift";
     border-radius: 7px;
-    top: 30px;
-    left: 23%;
 }
 
 button:hover{
@@ -60,4 +55,11 @@ hr{
 .Como_arreglo_tropel{
     position: relative;
     top:500px;
+}
+
+form{
+    position: relative;
+    top: 30px;
+    width: 700px;
+    margin: auto;
 }
