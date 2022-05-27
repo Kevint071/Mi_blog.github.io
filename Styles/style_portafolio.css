@@ -1,5 +1,5 @@
 body{
-    position: static;
+    margin: auto;
 }
 
 h1{
@@ -39,4 +39,10 @@ ol li > a{
 
 .p_footer{
     font-family: "Bahnschrift";
+}
+
+.rellenador{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 400px;
 }
