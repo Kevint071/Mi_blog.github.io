@@ -3,82 +3,64 @@ body{
     background: linear-gradient(#aefaff, #c5ffd4);
 }
 
-.div_cabecera{
-    position: absolute;
-    top: 0px;
+header{
+    position: relative;
+    margin: auto;
     height: 80px;
     width: 100%;
-    margin-top: 0px;
     background-color: #000;
 }
 
-.imagen_logo{
-    background-color: transparent;
-    position: relative;
-    top: 10px;
-    left: 3.2%;
-    width: 150px;
-    border-radius: 33px;
-    z-index: 4;
+ul{
+    list-style: none;
 }
 
-.div_cabecera > a{
+.menu{
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li > a{
+    background-color: transparent;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Bahnschrift";
     text-decoration: none;
+    padding: 6px 40px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.menu > li > a:hover{
+    transform: scale(1.11);
+    background-color: transparent;
+    color: #fff;
+}
+
+.menu > li{
+    position: relative;
+    top: 22px;
+    float: left;
+}
+
+.imagen_logo{
+    position: relative;
+    background-color: transparent;
+    width: 150px;
+    left: 3%;
+    border-radius: 33px;
+    margin-top: 10px;
 }
 
 .boton_inicio{
-    position: absolute;
-    background-color: transparent;
-    color: #fff;
-    padding: 6px 40px;
-    text-align: center;
-    border-radius: 6px;
-    top: 20px;
-    left: 18.3%;
-    font-family: "Bahnschrift";
-    font-size: 20px;
-}
-
-.boton_inicio:hover{
-    transform: scale(1.11);
-    background-color: transparent;
-    color: #fff;
+    left: 12%;
 }
 
 .boton_content{
-    position: absolute;
-    background-color: transparent;
-    color: #fff;
-    padding: 6px 35px;
-    text-align: center;
-    border-radius: 6px;
-    top: 20px;
-    left: 57.8%;
-    font-family: "Bahnschrift";
-    font-size: 20px;
-}
-
-.boton_content:hover{
-    transform: scale(1.11);
-    background-color: transparent;
-    color: #fff;
+    left: 42%;
 }
 
 .boton_programas{
-    position: absolute;
-    background-color: transparent;
-    color: #fff;
-    padding: 6px 40px;
-    text-align: center;
-    border-radius: 6px;
-    top: 20px;
-    left: 76.1%;
-    font-family: "Bahnschrift";
-    font-size: 20px;
-}
-
-.boton_programas:hover{
-    transform: scale(1.11);
-    background-color: transparent;
-    color: #fff;
+    left: 47%;
 }
