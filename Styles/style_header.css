@@ -1,6 +1,7 @@
 body{
     margin: auto;
     background: linear-gradient(#aefaff, #c5ffd4);
+
 }
 
 header{
@@ -11,14 +12,25 @@ header{
     background-color: #000;
 }
 
-ul{
-    list-style: none;
+.imagen_logo{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    left: 3%;
+    border-radius: 33px;
+    margin-top: 10px;
 }
 
 .menu{
+    list-style: none;
     margin: 0;
     padding: 0;
+    position: relative;
+    top: 22px;
+    display: flex;
+    margin-left: 50%;
 }
+   
 
 .menu > li > a{
     background-color: transparent;
@@ -39,28 +51,6 @@ ul{
 }
 
 .menu > li{
-    position: relative;
-    top: 22px;
     float: left;
-}
-
-.imagen_logo{
-    position: relative;
-    background-color: transparent;
-    width: 150px;
-    left: 3%;
-    border-radius: 33px;
-    margin-top: 10px;
-}
-
-.boton_inicio{
-    left: 12%;
-}
-
-.boton_content{
-    left: 42%;
-}
-
-.boton_programas{
-    left: 47%;
+    flex-basis: 29%;  
 }

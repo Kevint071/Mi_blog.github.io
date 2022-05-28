@@ -1,36 +1,45 @@
 h1{
-    font-size: 40px;
     position: relative;
+    display: flex;
+    font-size: 45px;
     font-family: "Bahnschrift";
+    width: 632px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 h2{
     font-size: 26px;
     position: relative;
-    margin-left: 1%;
+    margin-left: 4%;
     margin-top: 40px;
     font-family: "Bahnschrift";
 }
 
-.saludo_bienvenida{
-    width: 195px;
+.enfasis{
+    font-size: 33px;
+    position: relative;
+    font-weight: 200;
+    font-family: "Bahnschrift";
+    width: 469px;
     margin: auto;
-    margin-top: 120px;
+    margin-bottom: 70px;
+    
 }
 
-.bienvenida{
-    position:relative;
-    top: 60px;
-    margin-right: 35px;
-    margin-left:0px;
+.saludo_bienvenida{
+    
 }
 
 .lenguajes{
     position:relative;
-    margin-top: 270px;
-    margin-left: 25px;
+    float: right;
+    bottom: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: transparent;
-    background: transparent;
+    filter: brightness(1.1);
     mix-blend-mode: multiply;
 }
 
@@ -38,8 +47,7 @@ h2{
     position: relative;
     font-size: 20px;
     font-family: "Bahnschrift";
-    margin-left: 15px;
-    margin-left: 1.1%;
+    margin-left: 4%;
 }
 
 table{
