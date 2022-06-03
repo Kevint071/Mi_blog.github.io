@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    background: linear-gradient(#8ff8ff, #b7ffca);
+    background: linear-gradient(#8ff8ff, #88ffa7);
 
 }
 
@@ -46,8 +46,10 @@ nav{
     border-top: 2px solid #fff;
 }
 
-.inicio{
+.principal{
+    display: flex;
     margin: auto;
+    margin-top: 0px;
 }
 
 .desplegable{
@@ -74,14 +76,19 @@ nav{
     display: block;
     background-color: #000;
     border-radius: 8px;
-    z-index: 3;
+    z-index: 1;
 }
 
 .desplegable:hover .boton_content{
     position: relative;
     bottom: 1px;
+    transform: scale(1.09);
     color: #fff;
     padding-bottom: 40px;
+}
+
+.show_content:hover > li:hover a{
+    transform: scale(1.09);
 }
 
 .menu li > a{
@@ -95,11 +102,13 @@ nav{
     border-radius: 6px;
 }
 
-.menu > div a:hover{
+.menu > div .boton_inicio .boton_programas{
     transform: scale(1.09);
     background-color: transparent;
     color: #fff;
 }
+
+
 
 .menu > li{
     float: left;
