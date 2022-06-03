@@ -55,18 +55,18 @@ p{
     margin-top: 20px;
 }
 
-ul{
+.temas_python{
     font-size: 20px;
     position: relative;
     margin-left: 6%;
     font-family: "Bahnschrift";
 }
 
-ul li{
+.temas_python li{
     color:aqua;
 }
 
-ul li > .links{
+.temas_python li > .links{
     color: black;
     font-weight: 200;
     text-decoration: none;
