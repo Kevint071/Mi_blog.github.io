@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="Styles/style_header.css" type="text/css">
         <link href = "Styles/style_index.css" rel = "stylesheet" type = "text/css">
         <link rel="stylesheet" href="Styles/style_footer.css" type="text/css">
-        <link rel="icon" type="image/png" href="../Imagenes/Logo_python.PNG"/>
+        <link rel="icon" type="image/png" href="Imagenes/Logo_python.PNG"/>
         <title>Mi Blog - Home</title>
     </head>
     <body class="inicio_pag">
@@ -13,9 +13,27 @@
             <nav>
                 <a href="index.html"><img class = "imagen_logo" src="Imagenes/Logo_pagina.PNG" align = "left"></a>
                 <ul class = "menu">
-                    <li class = "boton_inicio"><a href = "index.html">Inicio</a></li>
-                    <li class = "boton_content"><a href = "Contenido/Contenido.html">Contenido</a></li>
-                    <li class = "boton_programas"><a href = "Portafolio/Portafolio.html">Portafolio</a></li>
+                    <div class="incio">
+                        <li class = "boton_inicio"><a href = "index.html">Inicio</a></li>
+                    </div>
+                    
+                    <div class="desplegable">
+
+                        <li class = "boton_content"><a href = "Contenido/Contenido.html">Contenido</a></li>
+                        <div class = "triangulo"></div>
+
+                        <ul class="show_content">
+                            <li><a href="">Python</a></li>
+                            <li><a href="">Javascript</a></li>
+                            <li><a href="">Html</a></li>
+                            <li><a href="|">CSS</a></li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class = "portafolio">
+                        <li class = "boton_programas"><a href = "Portafolio/Portafolio.html">Portafolio</a></li>
+                    </div>
                 </ul>
             </nav>
         </header>
@@ -73,8 +91,8 @@
         </table>
         <footer>
             <form>
-                <input class="correo" type="email" placeholder="CORREO">
-                <input class="contraseña" type="password" placeholder="CONTRASEÑA">
+                <input class="correo" type="name" placeholder="Nombre">
+                <input class="contraseña" type="email" placeholder="Email">
                 <button type="submit">Suscribirse</button>
             </form>
             <hr>
