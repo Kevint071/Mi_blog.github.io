@@ -3,7 +3,7 @@ h1{
     display: flex;
     font-size: 45px;
     font-family: "Bahnschrift";
-    width: 635px;
+    width: 615px;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -24,11 +24,8 @@ h2{
     font-family: "Bahnschrift";
     width: 469px;
     margin: auto;
-    margin-bottom: 70px;
-    
+    margin-bottom: 70px;   
 }
-
-
 
 .lenguajes{
     position:relative;
@@ -89,4 +86,21 @@ th{
     display: block;
     width: 100px;
     margin: auto;
+}
+
+.temas_python{
+    font-size: 20px;
+    position: relative;
+    margin-left: 6%;
+    font-family: "Bahnschrift";
+}
+
+.temas_python li{
+    color:#0066ff;
+}
+
+.temas_python li > .links{
+    color: black;
+    font-weight: 200;
+    text-decoration: none;
 }

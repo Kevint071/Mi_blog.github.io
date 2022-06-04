@@ -1,28 +1,28 @@
 h1{
-    font-size: 40px;
-    position: relative;
-    margin-left: 4%;
-    font-family: "Bahnschrift";
     display: block;
+    width: 123px;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "Bahnschrift";
+    font-weight: 900;
 }
 
 h2{
-    font-size: 33px;
-    width: 300px;
-    margin-top: 50px;
-    margin-right: 3px;
-    position: relative;
-    font-family: "Bahnschrift";
     display: block;
-    margin-left: 4%;
+    position: relative;
+    font-size: 33px;
+    margin: 50px 30px 0px 4%;
+    font-family: "Bahnschrift";
+    
 }
 
 h3{
     font-size: 25px;
     position: relative;
     font-family: "Bahnschrift";
-    margin-top: 45px;
-    margin-left: 7%;
+    margin: 45px 0px 25px 7%;
 }
 
 .Logo_python{
@@ -63,7 +63,7 @@ p{
 }
 
 .temas_python li{
-    color:aqua;
+    color:#0066ff;
 }
 
 .temas_python li > .links{
@@ -74,4 +74,47 @@ p{
 
 .p_footer{
     font-size: 16px;
+}
+
+table{
+    position: relative;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+th, td, tr{
+    padding: 13px;
+    border: 4px solid #000;
+    font-family: "Bahnschrift";
+}
+
+td{
+    height: 50px;
+    font-size: 17px;
+    text-align: justify;
+    width: 300px;
+}
+
+th{
+    font-size: 25px;
+}
+
+.column{
+    height: 100px;
+}
+
+.p_footer{
+    font-family: "Bahnschrift";
+}
+
+.img_tabla_python{
+    width: 150px;
+}
+
+.img_tabla_python > img{
+    display: block;
+    width: 100px;
+    margin: auto;
 }
