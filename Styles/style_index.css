@@ -38,13 +38,6 @@ h2{
     mix-blend-mode: multiply;
 }
 
-.index_p{
-    position: relative;
-    font-size: 20px;
-    font-family: "Bahnschrift";
-    margin-left: 4%;
-}
-
 table{
     position: relative;
     border-collapse: collapse;
@@ -73,11 +66,6 @@ th{
 .column{
     height: 100px;
 }
-
-.p_footer{
-    font-family: "Bahnschrift";
-}
-
 .img_tabla_python{
     width: 150px;
 }

@@ -80,7 +80,6 @@ nav{
 
 .desplegable:hover .boton_content{
     position: relative;
-    bottom: 1px;
     transform: scale(1.09);
     color: #fff;
     padding-bottom: 40px;
@@ -101,13 +100,23 @@ nav{
     border-radius: 6px;
 }
 
-.menu > div .boton_inicio .boton_programas{
+.menu .boton_inicio a:hover{
     transform: scale(1.09);
     background-color: transparent;
     color: #fff;
 }
 
+.menu .boton_programas a:hover{
+    transform: scale(1.09);
+    background-color: transparent;
+    color: #fff;
+}
 
+.menu .boton_inicio a:hover{
+    transform: scale(1.09);
+    background-color: transparent;
+    color: #fff;
+}
 
 .menu > li{
     float: left;
