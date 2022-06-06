@@ -1,5 +1,6 @@
 h1{
     display: block;
+    text-align: center;
     width: 623px;
     position: relative;
     margin: auto;
@@ -14,7 +15,7 @@ h2{
     display: block;
     position: relative;
     font-size: 33px;
-    margin: 50px 30px 0px 4%;
+    margin: 50px 30px 0px 4.8%;
     font-family: "Bahnschrift";
 }
 
@@ -27,15 +28,16 @@ h3{
 
 .Logo_python{
     position: relative;
-    width: 90px;
-    margin-top: 0px;
+    width: 150px;
     float: right;
+    margin-top: 10px;
+    margin-left: 70px;
     margin-right: 70px;
-    margin-left: 25px;
 }
 
 .enfasis{
     font-size: 33px;
+    text-align: center;
     position: relative;
     font-weight: 200;
     font-family: "Bahnschrift";
@@ -59,6 +61,21 @@ h3{
     color: black;
     font-weight: 200;
     text-decoration: none;
+}
+
+.img_data{
+    display: block;
+    width: 130px;
+    margin-left: 7%;
+    margin-top: 20px;
+}
+
+ul{
+    margin-left: 4.8%;
+}
+
+ul > li > p{
+    margin-left: 6px;
 }
 
 table{
@@ -90,12 +107,3 @@ th{
     height: 100px;
 }
 
-.img_tabla_python{
-    width: 150px;
-}
-
-.img_tabla_python > img{
-    display: block;
-    width: 100px;
-    margin: auto;
-}
