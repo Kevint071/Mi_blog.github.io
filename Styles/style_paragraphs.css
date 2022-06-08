@@ -17,3 +17,9 @@ p{
 .p_next{
     margin-top: 20px;
 }
+
+.enlaces{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
