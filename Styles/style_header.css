@@ -1,14 +1,15 @@
 body{
     margin: auto;
-    background: linear-gradient(#89f7ff, #3bff6583);
+    background: linear-gradient(#00eeff44, #00ff3749);
 }
 
 header{
-    position: relative;
+    position: static;
     margin: auto;
     height: 80px;
     width: 100%;
     background-color: #000;
+    z-index: 2;
 }
 
 .imagen_logo{
@@ -69,6 +70,7 @@ nav{
     top: 60px;
     color: #000;
     padding: 4px 20px 4px 20px;
+    margin-left: 0px;
 }
 
 .desplegable:hover .show_content{
