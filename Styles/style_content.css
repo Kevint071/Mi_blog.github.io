@@ -30,7 +30,7 @@ h3{
 .apuntes{
     position: fixed;
     top: 130px;
-    padding-right: 28px;
+    padding-right: 0px;
     float: left;
     border-right: 2px solid #000;
 }
@@ -40,6 +40,7 @@ h3{
     margin-right: 0px;
     margin-top: 10px;
     width: 200px;
+    font-size: 25px;
 }
 
 .Logo_python{
@@ -63,26 +64,28 @@ h3{
 }
 
 .temas_python{
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
     margin-left: 6%;
     font-family: "Bahnschrift";
 }
 
 .temas_python > li{
-    height: 20px;
+    height: 15px;
     overflow: hidden;
     list-style: armenian;
     color: #000;
-    margin: 6px 0 6px 0;
+    margin: 6px 0 10px 0;
 }
 
 .temas_python > li:hover{
     height: auto;
+    width: 190px;
 }
 
 .sublista{
     color: #000;
+    
 }
 
 
