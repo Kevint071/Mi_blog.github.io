@@ -1,10 +1,9 @@
 h1{
     display: block;
-    text-align: center;
-    width: 700px;
+    text-align: left;
     position: relative;
-    margin: auto;
     margin-top: 110px;
+    margin-left: 23%;
     margin-bottom: 10px;
     font-size: 45px;
     font-family: "Bahnschrift";
@@ -15,7 +14,8 @@ h2{
     display: block;
     position: relative;
     font-size: 33px;
-    margin: 50px 30px 0px 4.8%;
+    margin: 50px 30px 0px 23%;
+    text-align: left;
     font-family: "Bahnschrift";
 }
 
@@ -23,7 +23,23 @@ h3{
     font-size: 25px;
     position: relative;
     font-family: "Bahnschrift";
-    margin: 45px 0px 25px 7%;
+    margin: 45px 0px 25px 23%;
+}
+
+
+.apuntes{
+    position: fixed;
+    top: 130px;
+    padding-right: 28px;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+.titulo_apuntes{
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 200px;
 }
 
 .Logo_python{
@@ -36,14 +52,14 @@ h3{
 }
 
 .enfasis{
+    display: block;
     font-size: 33px;
-    text-align: center;
+    text-align: left;
     position: relative;
     font-weight: 200;
     font-family: "Bahnschrift";
+    margin: 0 0 30px 23%;
     width: 345px;
-    margin: auto;
-    margin-bottom: 70px;   
 }
 
 .temas_python{
@@ -53,14 +69,27 @@ h3{
     font-family: "Bahnschrift";
 }
 
-.temas_python li{
-    color:#000;
-    margin:6px 0 6px 0;
+.temas_python > li{
+    height: 20px;
+    overflow: hidden;
+    list-style: armenian;
+    color: #000;
+    margin: 6px 0 6px 0;
 }
+
+.temas_python > li:hover{
+    height: auto;
+}
+
+.sublista{
+    color: #000;
+}
+
+
 
 .temas_python li > .links{
     color: #ff8800;
-    text-decoration: none;
+    
 }
 
 .img_data{
@@ -77,12 +106,9 @@ ul > li > p{
     margin-left: 6px;
 }
 
-section{
-    float: left;
-    position: fixed;
-    top: 150px;
-    border-right: 2px solid #000;
-    height: 800px;
-    width: 15%;
+ul > li >a{
+    text-decoration: none;
 }
+
+
 
