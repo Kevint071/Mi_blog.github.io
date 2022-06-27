@@ -29,10 +29,12 @@ h3{
 
 .apuntes{
     position: fixed;
+    width: 20%;
     top: 130px;
     padding-right: 0px;
     float: left;
     border-right: 2px solid #000;
+
 }
 
 .titulo_apuntes{
@@ -40,7 +42,7 @@ h3{
     margin-right: 0px;
     margin-top: 10px;
     width: 200px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .Logo_python{
@@ -64,29 +66,12 @@ h3{
 }
 
 .temas_python{
-    font-size: 15px;
+    font-size: 18px;
     position: relative;
     margin-left: 6%;
     font-family: "Bahnschrift";
 }
 
-.temas_python > li{
-    height: 15px;
-    overflow: hidden;
-    list-style: armenian;
-    color: #000;
-    margin: 6px 0 10px 0;
-}
-
-.temas_python > li:hover{
-    height: auto;
-    width: 190px;
-}
-
-.sublista{
-    color: #000;
-    
-}
 
 
 
@@ -113,5 +98,22 @@ ul > li >a{
     text-decoration: none;
 }
 
+iframe{
+    position: fixed;
+    height: 400px;
+    top: 110px;
+    background-color: transparent;
+    border: 0px;
+}
 
+iframe:hover{
+    height: 400px;
+}
 
+.fondo_menu{
+    background: transparent;
+}
+
+.p_content{
+    margin-right: 11%;
+}
