@@ -23,8 +23,12 @@ header{
 }
 
 nav{
+    display: block;
     position: relative;
     top: 22px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu{
