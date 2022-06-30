@@ -25,15 +25,12 @@ h3{
     margin: 45px 0px 25px 23%;
 }
 
-
 .apuntes{
     position: fixed;
-    width: 20%;
     top: 130px;
     padding-right: 0px;
     float: left;
     border-right: 2px solid #000;
-
 }
 
 .titulo_apuntes{
@@ -155,6 +152,7 @@ str{
 }
 
 .apuntes_content{
+    position: relative;
     margin-left: 23%;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 }
@@ -169,3 +167,8 @@ str{
     color: #ff8800;
 }
 
+.responsive{
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+}
