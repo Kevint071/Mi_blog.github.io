@@ -41,6 +41,24 @@ h3{
     font-size: 30px;
 }
 
+.apuntes_in_content{
+    position: relative;
+    margin-left: 23%;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+.apuntes_in_content li{
+    color: #000;
+    font-weight: 700;
+    margin: 10px 0 10px 0;
+}
+
+.apuntes_in_content a{
+    text-decoration: none;
+    color: #ff8800;
+    font-size: 20px;
+}
+
 .Logo_python{
     position: relative;
     width: 150px;
@@ -112,16 +130,15 @@ iframe:hover{
 }
 
 .codigo{
-    margin-left: 23%;
+    margin: 30px 30px 30px 23%;
     background-color: #49483e;
     width: 60%;
     border-radius: 5px;
-    padding: 20px 20px 20px 60px;
+    padding: 15px 20px 15px 60px;
 }
 
-
-code .codigo li{
-    font-size: 18px;
+.codigo li{
+    font-size: 16px;
     font-family: Menlo, Monaco, Consolas,"Courier New",monospace;
     font-weight: 500;
     color: white;
@@ -152,22 +169,6 @@ str{
     color: #a6e22e;
 }
 
-.apuntes_content{
-    position: relative;
-    margin-left: 23%;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-}
-
-.apuntes_content a{
-    text-decoration: none;
-    color: #000;
-    font-size: 20px;
-}
-
-.apuntes_content li{
-    color: #ff8800;
-}
-
 .responsive{
     display: block;
     max-width: 1300px;
@@ -179,7 +180,7 @@ str{
         display: none;
     }
 
-    h1, h2, .enfasis, .codigo, .apuntes_content{
+    h1, h2, .enfasis, .codigo, .apuntes_in_content{
         margin-left: 4.8%;
     }
 }
