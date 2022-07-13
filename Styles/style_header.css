@@ -133,7 +133,7 @@ nav{
     margin-left: 30px;
 }
 
-@media (max-width: 500px){
+@media all and (max-width: 500px){
     .menu{
         display: none;
     }
