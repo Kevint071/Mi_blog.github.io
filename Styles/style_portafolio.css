@@ -24,12 +24,12 @@ ol{
 }
 
 ol li{
-    color:aqua;
+    color:#ff8800;
 }
 
 ol li > a{
     color: black;
-    font-weight: 200;
+    font-weight: 500;
     text-decoration: none;
 }
 
