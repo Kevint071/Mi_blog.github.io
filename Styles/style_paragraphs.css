@@ -34,8 +34,8 @@ p{
     }
 }
 
-@media (max-width:1300px){
+@media (min-width:300px){
     p, .p_next{
-        margin-right: 30px;
+        margin-right: 90px;
     }
 }
